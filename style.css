@@ -1,0 +1,13 @@
+div.a {
+    text-align: right;
+    color: aqua;
+}
+h1{
+    color: brown;
+    font-style: italic;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
