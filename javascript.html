@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
-</head>
-<body>
-    <p id="demo">Hello Javascript</p>
-    <script>
-        /*<button type="button" onclick="document.getElementById('demo').innerHTML='Hello Nitin'"></button>*/
-    </script>
-    <button type="button" onclick="document.getElementById('demo').innerHTML='Hello Nitin'">Press</button>
-</body>
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>javascript</title>
+ </head>
+ <body>
+  <script>
+    /*<h2>One of many JavaScript HTML methods is getElementById().</h2>
+    <p>The example below "finds" an HTML element (with id="demo"), and changes the element content (innerHTML) to "Hello JavaScript":</p>*/
+  </script>
+  <p id="demo">javascript can change html content.</p>
+  <button type="button" onclick='document.getElementById("demo").innerHTML="hello javascript"'>press</button>
+  <br>
+  <script>
+    /* <p>
+     JavaScript Can Change HTML Attribute Values
+     In this example JavaScript changes the value of the src (source) attribute of an <img> tag:
+    </p>*/
+  </script>
+  <button onclick="document.getElementById('my image').src='pic_bulbon.gif'" >turn on light</button>
+  <img id="my image" src="pic_bulboff.gif">
+  <button onclick="document.getElementById('my image').src='pic_bulboff.gif' " >turn off light</button>
+  <script>
+  /* <p>
+    javascript can hide element
+    hiding elementcan be done by change the display style
+  </p>*/
+  </script>
+  <br>
+  <br>
+  <button type="button" onclick="document.getElementById('demo').style.display='none'">click hide</button>
+  <br><br>
+  <button type="button" onclick="document.getElementById('demo').style.display='block'">click show</button>
+  <script>
+    document.getElementById('demo').innerHTML="my first html";
+  </script>
+ </body>
 </html>
